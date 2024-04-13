@@ -1,0 +1,63 @@
+Body {
+  Font-family: Roboto;
+  Margin: 0;
+  Min-height: 100vh;
+}
+
+
+.header_top {
+  Background: #1F2937;
+}
+
+/* HEADER */
+.header {
+  color: #F9FAF8;
+  Font-size: 24px;
+}
+
+
+/* TOP */
+.top {
+}
+
+
+.main_text {
+}
+
+
+
+/* MIDDLE */
+.middle {
+}
+
+
+
+/* LOWER */
+.lower {
+   Background: #E5E7EB;
+   Color: #1F2937;
+   Font-size: 36px;
+   Font-style: italic;
+   Font-weight: light;
+}
+
+
+
+/* FOOTER */
+.footer {
+}
+
+
+
+
+
+/* LINKS */
+Ul {
+  List-style-type: none;
+}
+
+A {
+  Text-decoration: none;
+  Color: #E5E7EB;
+  Font-size: 18px;
+}
