@@ -2,11 +2,14 @@ Body {
   Font-family: Roboto;
   Margin: 0;
   Min-height: 100vh;
+  Display: flex;
+  Flex-direction: column;
 }
 
 
 .header_top {
   Background: #1F2937;
+  Padding: 16px;
 }
 
 /* HEADER */
@@ -15,9 +18,33 @@ Body {
   Font-size: 24px;
 }
 
+.header_links {
+  Display: flex;
+  Justify-content: space-between;
+}
+
+/* LINKS */
+Ul {
+  List-style-type: none;
+  Display: flex;
+}
+
+A {
+  Text-decoration: none;
+  Color: #E5E7EB;
+  Font-size: 18px;
+  Margin: 8px;
+}
+
+
+
+
 
 /* TOP */
 .top {
+  Display: flex;
+  Justify-content: center;
+  Color: white;
 }
 
 
@@ -28,6 +55,17 @@ Body {
 
 /* MIDDLE */
 .middle {
+  padding: 16px;
+}
+
+.middle_title {
+  Display: flex;
+  Justify-content: center;
+}
+
+.cards {
+  Display: flex;
+  Justify-content: space-around;
 }
 
 
@@ -51,13 +89,3 @@ Body {
 
 
 
-/* LINKS */
-Ul {
-  List-style-type: none;
-}
-
-A {
-  Text-decoration: none;
-  Color: #E5E7EB;
-  Font-size: 18px;
-}
