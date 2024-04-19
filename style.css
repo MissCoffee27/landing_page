@@ -89,7 +89,10 @@ A {
 
 .card {
   Border: 5px solid #3882F6;
-  Border-radius: 10px;
+  Border-radius: 20px;
+  Width: 200px;
+  Height: 200px;
+  Padding: 10px;
 }
 
 .text {
