@@ -9,7 +9,7 @@ Body {
 
 .header_top {
   Background: #1F2937;
-  Padding: 16px;
+  Padding: 16px 150px;
 }
 
 /* HEADER */
@@ -44,23 +44,42 @@ A {
 .top {
   Display: flex;
   Justify-content: center;
-  Color: white;
+  Align-items: center;
+  Padding: 20px 0px;
 }
 
 
 .main_text {
+  Color: #F9FAF8;
+  Font-size: 48px;
+  Font-weight: bold;
 }
 
+.description {
+  Color: #E5E7EB;
+  Font-size: 18px;
+}
+
+.button_one {
+  Color: #F9FAF8;
+  Background-color: #3882F6;
+  Border: none;
+  Border-radius: 5px;
+  Padding: 5px 20px;
+}
 
 
 /* MIDDLE */
 .middle {
-  padding: 16px;
+  padding: 50px;
 }
 
 .middle_title {
   Display: flex;
   Justify-content: center;
+  Color: #1F2937;
+  Font-size: 36px;
+  Font-weight: bold;
 }
 
 .cards {
@@ -68,21 +87,92 @@ A {
   Justify-content: space-around;
 }
 
+.card {
+  Border: 5px solid #3882F6;
+  Border-radius: 10px;
+}
+
+.text {
+  Justify-content: center;
+  Display: flex;
+}
 
 
-/* LOWER */
-.lower {
+/* QUOTE BOX */
+.quote_box {
    Background: #E5E7EB;
+   Padding: 150px;   
+}
+
+.quote {
    Color: #1F2937;
    Font-size: 36px;
    Font-style: italic;
    Font-weight: light;
 }
 
+.by_person {
+  Color: #1F2937;
+  Font-size: 20px;
+  Display: flex;
+  Justify-content: flex-end;
+}
+
+
+
+
+/* CALL TO ACTION BOX */
+.action_box {
+  Display: flex;
+  Justify-content: center;
+  Align-items: center;
+  Padding: 70px;
+}
+
+.box {
+  Font-family: sans-serif;
+  Background-color: #3882F6;
+  Color: #F9FAF8;
+  Padding: 25px 100px;
+  Display: flex;
+  Justify-content: space-around;
+  Align-items: center;
+}
+
+.button_two {
+  Color: #F9FAF8;
+  Background-color: #3882F6;
+  Border: 2px solid #F9FAF8;
+  Border-radius: 5px;
+  Padding: 5px 20px;
+}
+
+.sign_up {
+  Display: flex;
+  Justify-content: flex-start;
+  Font-size: 14px;
+}
+
+.action_sign_up {
+  Padding: 30px;
+}
+
+.action {
+  Font-weight: bold;
+  Font-size: 20px;
+}
+
+
 
 
 /* FOOTER */
 .footer {
+  Background-color: #1F2937;
+  Color: #F9FAF8;
+  Display: flex;
+  Justify-content: center;
+  Align-items: center;
+  Padding: 30px;
 }
 
 
