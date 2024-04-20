@@ -7,10 +7,17 @@ Body {
 }
 
 
+
+
+
 .header_top {
   Background: #1F2937;
   Padding: 16px 150px;
 }
+
+
+
+
 
 /* HEADER */
 .header {
@@ -46,6 +53,7 @@ A {
   Justify-content: center;
   Align-items: center;
   Padding: 20px 0px;
+  Font-family: sans-serif;
 }
 
 
@@ -53,6 +61,7 @@ A {
   Color: #F9FAF8;
   Font-size: 48px;
   Font-weight: bold;
+  Padding: 5px 0px;
 }
 
 .description {
@@ -69,9 +78,20 @@ A {
 }
 
 
+.top_text {
+  Display: flex;
+  Flex-wrap: wrap;
+}
+
+
+
+
+
+
+
 /* MIDDLE */
 .middle {
-  padding: 50px;
+  padding: 70px 0px;
 }
 
 .middle_title {
@@ -80,6 +100,7 @@ A {
   Color: #1F2937;
   Font-size: 36px;
   Font-weight: bold;
+  Padding: 10px 0px;
 }
 
 .cards {
@@ -101,6 +122,11 @@ A {
 }
 
 
+
+
+
+
+
 /* QUOTE BOX */
 .quote_box {
    Background: #E5E7EB;
@@ -120,6 +146,9 @@ A {
   Display: flex;
   Justify-content: flex-end;
 }
+
+
+
 
 
 
@@ -164,6 +193,8 @@ A {
   Font-weight: bold;
   Font-size: 20px;
 }
+
+
 
 
 
